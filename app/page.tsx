@@ -13,8 +13,27 @@ export default function Home() {
           <iframe 
             src="https://acolyte-health-staging.vercel.app/chat"
             className="w-full h-96 border-0 rounded-lg"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals allow-downloads"
-            allow="clipboard-write"
+            sandbox="
+              allow-scripts 
+              allow-same-origin 
+              allow-forms 
+              allow-popups 
+              allow-modals 
+              allow-downloads
+              allow-popups-to-escape-sandbox
+              allow-top-navigation
+              allow-top-navigation-by-user-activation
+            "
+            allow="
+              microphone;
+              camera;
+              clipboard-write;
+              clipboard-read;
+              autoplay;
+              accelerometer;
+              encrypted-media;
+              geolocation
+            "
             title="Acolyte Health"
           />
         </Card>
@@ -25,8 +44,27 @@ export default function Home() {
           <iframe 
             src="https://glp-1-typescript.vercel.app/"
             className="w-full h-96 border-0 rounded-lg"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals allow-downloads"
-            allow="clipboard-write"
+            sandbox="
+              allow-scripts 
+              allow-same-origin 
+              allow-forms 
+              allow-popups 
+              allow-modals 
+              allow-downloads
+              allow-popups-to-escape-sandbox
+              allow-top-navigation
+              allow-top-navigation-by-user-activation
+            "
+            allow="
+              microphone;
+              camera;
+              clipboard-write;
+              clipboard-read;
+              autoplay;
+              accelerometer;
+              encrypted-media;
+              geolocation
+            "
             title="Medi-Bot"
           />
         </Card>
@@ -37,8 +75,27 @@ export default function Home() {
           <iframe 
             src="https://www.bentsassistant.com"
             className="w-full h-96 border-0 rounded-lg"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals allow-downloads"
-            allow="clipboard-write"
+            sandbox="
+              allow-scripts 
+              allow-same-origin 
+              allow-forms 
+              allow-popups 
+              allow-modals 
+              allow-downloads
+              allow-popups-to-escape-sandbox
+              allow-top-navigation
+              allow-top-navigation-by-user-activation
+            "
+            allow="
+              microphone;
+              camera;
+              clipboard-write;
+              clipboard-read;
+              autoplay;
+              accelerometer;
+              encrypted-media;
+              geolocation
+            "
             title="Bents Assistant"
           />
         </Card>
