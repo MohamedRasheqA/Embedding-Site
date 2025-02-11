@@ -11,7 +11,7 @@ export default function Home() {
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">Secure iframe Implementation</h2>
           <iframe 
-            src="https://acolyte-health-staging.vercel.app/"
+            src="https://acolytehealth.vercel.app/"
             className="w-full h-96 border-0 rounded-lg"
             sandbox="allow-scripts allow-same-origin"
             title="External Content"
