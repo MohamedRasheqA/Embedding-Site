@@ -38,12 +38,12 @@ export default function Home() {
           />
         </Card>
 
-        {/* Medi-Bot */}
+        {/* Medi-Bot - Increased height */}
         <Card className="p-6">
           <h2 className="text-xl font-semibold mb-4">Medi-Bot</h2>
           <iframe 
             src="https://glp-1-typescript.vercel.app/"
-            className="w-full h-96 border-0 rounded-lg"
+            className="w-full h-[600px] border-0 rounded-lg" // Increased height from h-96 to h-[800px]
             sandbox="
               allow-scripts 
               allow-same-origin 
