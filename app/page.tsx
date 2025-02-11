@@ -12,7 +12,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-4">Acolyte Health</h2>
           <iframe 
             src="https://acolyte-health-staging.vercel.app/chat"
-            className="w-full h-96 border-0 rounded-lg"
+            className="w-full h-[600px] border-0 rounded-lg"
             sandbox="
               allow-scripts 
               allow-same-origin 
