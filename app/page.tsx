@@ -74,7 +74,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-4">Bents Assistant</h2>
           <iframe 
             src="https://www.bentsassistant.com"
-            className="w-full h-96 border-0 rounded-lg"
+            className="w-full h-[600px] border-0 rounded-lg"
             sandbox="
               allow-scripts 
               allow-same-origin 
