@@ -43,35 +43,3 @@ export default function Home() {
     </main>
   )
 }
-
-// Custom embed component with error boundary and loading state
-function ExternalEmbed({ 
-  url, 
-  width = "100%", 
-  height = "300px" 
-}: { 
-  url: string
-  width?: string
-  height?: string
-}) {
-  return (
-    <div className="relative rounded-lg overflow-hidden bg-gray-100">
-      <iframe
-        src={url}
-        style={{
-          width,
-          height,
-          border: 'none'
-        }}
-        sandbox="allow-scripts allow-same-origin"
-        title="Embedded Content"
-        loading="lazy"
-      />
-      
-      {/* Fallback content */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <p className="text-gray-500">Loading external content...</p>
-      </div>
-    </div>
-  )
-}
